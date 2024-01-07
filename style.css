@@ -83,17 +83,31 @@ img {
 .welcome-mid {
     background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
     display: flex;
-    max-width: 82.3%;
+    max-width: 82.5%;
     margin: 120px auto 40px;
 }
 
 .mid-half {
     padding: 126px;
-    width: 50%;
+    width: 72%;
 }
 
-p {
+.mid-half>p {
     white-space: normal;
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.mid-half>a {
+    color: #FFF;
+    text-decoration: none;
+    margin-top: 48px;
+    margin-left: 32px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
 }
 
 .mid-img {
@@ -101,6 +115,8 @@ p {
     right: 138px;
     padding-top: 68px;
 }
+
+
 
 /* place hotel */
 .place-hotel {
@@ -113,10 +129,10 @@ p {
     max-width: 82.5%;
     margin: 0 auto 120px;
     padding: 100px 0px 126px 0px;
-    
+
 }
 
-.place-hotel > p{
+.place-hotel>p {
     font-family: Inter;
     font-size: 32px;
     font-weight: 600;
@@ -126,7 +142,7 @@ p {
 
 
 .special-style {
-    color: #F00;    
+    color: #F00;
 }
 
 .place-hotel>p {
@@ -136,13 +152,14 @@ p {
 }
 
 
-.place-hotel > a > button{
+.place-hotel>a>button {
     padding: 16px 32px;
     border-radius: 8px;
     color: #FFFFFF;
     background-color: #F00;
     margin-top: 48px;
 }
+
 /* comming soon */
 
 .comming-soon {
@@ -206,7 +223,7 @@ p {
 
 .holiday-sale {
     position: relative;
-    max-width: 83.2%;
+    max-width: 82.5%;
     margin: 0 auto 120px;
     display: flex;
     flex-direction: column;
@@ -235,7 +252,7 @@ p {
 .best-gift {
     display: flex;
     flex-direction: column;
-    max-width: 83.2%;
+    max-width: 82.5%;
     margin: 0 auto 120px;
     text-align: left;
 }
@@ -248,7 +265,7 @@ p {
     line-height: 16px;
 }
 
-.best-gift > div > .black-heading {
+.best-gift>div>.black-heading {
     margin-top: 0px;
     margin-bottom: 22px;
 }
@@ -260,11 +277,12 @@ p {
     margin-top: 48px;
 }
 
-.gift-img > img:hover{
+.gift-img>img:hover {
     opacity: 0.2;
     border: 5px solid rgb(128, 0, 0);
     border-radius: 15px;
 }
+
 /* newsletter */
 
 
@@ -273,7 +291,7 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 83.2%;
+    max-width: 82.5%;
     margin: 0 auto 120px;
     border-radius: 16px;
     background: rgba(255, 0, 0, 0.05);
