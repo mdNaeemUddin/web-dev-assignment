@@ -121,14 +121,57 @@ p {
 
 .comming-soon {
     display: flex;
-    gap: 30px;
-    max-width: 82.3%;
+    justify-content: space-between;
+    align-self: space-between;
+    column-gap: 70px;
+    max-width: 82.5%;
     margin: 0 auto 120px;
+    background-color: #FFF;
+    position: relative;
 
 }
 
-.comming-half {
-    width: 33.33%;
+.comming-head {
+    color: #FF0000;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.right-head {
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.left {
+    line-height: 16px;
+}
+
+.left,
+.right {
+    padding: 75px 0px 120px;
+    max-width: 25%;
+}
+
+.middle{
+    width: 50%;
+}
+
+.comming-img {
+    height: 100%;
+    margin: 20px;
+    border: 20px solid rgb(243, 236, 236);
+    border-radius: 50%;
+    outline: 15px solid red;
+
+
+}
+
+
+.comming-new {
+    position: absolute;
+    bottom: 0;
 }
 
 /* holiday-sales */
@@ -179,7 +222,7 @@ p {
     line-height: 16px;
 }
 
-.best-gift > div > .black-heading{
+.best-gift>div>.black-heading {
     margin-top: 0px;
     margin-bottom: 22px;
 }
