@@ -6,7 +6,7 @@
 
 p {
     color: rgba(7, 2, 17, 0.60);
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 20px;
     line-height: 32px;
 }
@@ -51,32 +51,49 @@ img {
 }
 
 /* main section */
+
+
+/* category section */
+
 .category {
     display: flex;
     flex-direction: column;
     gap: 20px;
     justify-content: center;
     align-items: center;
+    background-color: #FFF;
+    margin-bottom: 120px;
 
 }
 
 .cata-head {
     color: #F00;
+    font-family: 'Inter', sans-serif;
     font-size: 88px;
     font-weight: 700;
-    font-family: 'Inter', sans-serif;
+    font-style: normal;
     margin-bottom: 0px;
 }
 
 .cata-sub-head {
     color: #F00;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+
+}
+
+header > h3 > span{
+    display: inline-block;
+    margin-top: 8px;
 }
 
 .black-heading {
     color: #070211;
     font-family: 'Inter', sans-serif;
     font-size: 48px;
-    font-weight: 7
+    font-weight: 700;
 }
 
 /* welcome-midnight */
@@ -133,7 +150,7 @@ img {
 }
 
 .place-hotel>p {
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 32px;
     font-weight: 600;
     color: #070211;
@@ -182,7 +199,7 @@ img {
 
 .right-head {
     color: #F00;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 48px;
     font-weight: 700;
 }
@@ -259,7 +276,7 @@ img {
 
 .gift-head {
     color: #F00;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 24px;
     font-weight: 500;
     line-height: 16px;
