@@ -109,6 +109,24 @@ p {
     justify-content: center;
     align-items: center;
     margin-bottom: 120px;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    max-width: 82.5%;
+    margin: 0 auto 120px;
+    padding: 100px 0px 126px 0px;
+    
+}
+
+.place-hotel > p{
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    color: #070211;
+}
+
+
+
+.special-style {
+    color: #F00;    
 }
 
 .place-hotel>p {
@@ -117,6 +135,14 @@ p {
     text-transform: capitalize;
 }
 
+
+.place-hotel > a > button{
+    padding: 16px 32px;
+    border-radius: 8px;
+    color: #FFFFFF;
+    background-color: #F00;
+    margin-top: 48px;
+}
 /* comming soon */
 
 .comming-soon {
@@ -154,7 +180,7 @@ p {
     max-width: 25%;
 }
 
-.middle{
+.middle {
     width: 50%;
 }
 
@@ -222,7 +248,7 @@ p {
     line-height: 16px;
 }
 
-.best-gift>div>.black-heading {
+.best-gift > div > .black-heading {
     margin-top: 0px;
     margin-bottom: 22px;
 }
@@ -234,6 +260,11 @@ p {
     margin-top: 48px;
 }
 
+.gift-img > img:hover{
+    opacity: 0.2;
+    border: 5px solid rgb(128, 0, 0);
+    border-radius: 15px;
+}
 /* newsletter */
 
 
