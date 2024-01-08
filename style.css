@@ -27,7 +27,8 @@ img {
 
 .first-section {
     max-width: 82.5%;
-    margin: 50px auto 118px;
+    margin: 50px auto;
+    padding-bottom: 0px;
     background-image: url("resources/Banner\ Image.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -45,7 +46,7 @@ img {
     color: #FFF;
     text-align: center;
     font-family: 'Merriweather', serif;
-    font-size: 72px;
+    font-size: 65px;
     font-weight: 900;
     line-height: normal;
     margin-top: 0px;
@@ -70,15 +71,14 @@ img {
 
 .cata-main {
     display: flex;
-    margin: 0 auto;
+    margin: 0px auto;
     max-width: 82.5%;
-    border: 2px solid red;
 }
 
 .category {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 30px;
     justify-content: center;
     align-items: center;
     background-color: #FFF;
@@ -97,29 +97,43 @@ img {
     font-weight: 700;
     font-style: normal;
     margin-bottom: 0px;
+    margin-top: 50px;
 }
 
-
+.cata-head-2 {
+    font-family: 'Inter', sans-serif;
+    color: #070211;
+    text-align: center;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
 
 .cata-sub-head {
     color: #F00;
     text-align: center;
     font-family: 'Inter', sans-serif;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 500;
 
 }
 
-header>h3>span {
-    display: inline-block;
-    margin-top: 8px;
-}
+/* .cata-head{
+    color: #070211;
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+} */
 
 .black-heading {
     color: #070211;
     font-family: 'Inter', sans-serif;
-    font-size: 48px;
+    font-size: 40px;
     font-weight: 700;
+    line-height: normal;
 }
 
 /* welcome-midnight */
@@ -267,6 +281,7 @@ header>h3>span {
     max-width: 82.5%;
     display: flex;
     flex-direction: column;
+    row-gap: 30px;
     margin: 30px auto 120px;
 }
 
@@ -307,6 +322,34 @@ header>h3>span {
     margin-bottom: 0px;
 }
 
+
+.holiday-img {
+    position: relative;
+}
+
+.rect {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    z-index: 0;
+}
+
+.flower-img {
+    position: relative;
+    left: 20px;
+    bottom: 0px;
+    z-index: 1;
+}
+
+.discount-img {
+    position: absolute;
+    right: 80px;
+    bottom: 250px;
+}
+
+
+
+
 /* best gift : awesome-portfolio */
 
 .best-gift {
@@ -343,6 +386,10 @@ header>h3>span {
     border-radius: 15px;
 }
 
+
+
+
+
 /* newsletter */
 
 
@@ -352,7 +399,7 @@ header>h3>span {
     justify-content: center;
     align-items: center;
     max-width: 82.5%;
-    margin: 0 auto 120px;
+    margin: 120px auto;
     border-radius: 16px;
     background: rgba(255, 0, 0, 0.05);
     padding: 80px 0;
@@ -397,7 +444,7 @@ input[type="submit"] {
 /* footer section */
 
 footer {
-    margin: 0px;
+    margin: 120px 0px 0px 0px;
     padding: 0px;
     background-color: #070211;
     color: #FFF;
