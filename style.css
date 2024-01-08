@@ -30,7 +30,7 @@ img {
     margin: 50px auto 118px;
     background-image: url("resources/Banner\ Image.png");
     background-repeat: no-repeat;
-    background-size: cover;  
+    background-size: cover;
     border-radius: 16px;
 }
 
@@ -263,32 +263,48 @@ header>h3>span {
 
 /* holiday-sales */
 
-
-
 .holiday-sale {
-    position: relative;
     max-width: 82.5%;
-    margin: 180 auto 120px;
     display: flex;
     flex-direction: column;
-    gap: 200px;
+    margin: 30px auto 120px;
 }
 
-.flower-img {
-    /* position: absolute;
-    bottom: 0px;
-    z-index: 0; */
-    z-index: 1;
-    position: absolute;
-    bottom: 30px;
-    box-shadow: none;
+
+.holiday-article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.discount-img {
-    position: absolute;
-    left: 1200px;
-    bottom: 0px;
-    z-index: 2;
+.holiday-head {
+    color: #070211;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.holiday-special {
+    color: #F00;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    margin-bottom: 0px;
+}
+
+.holiday-article>h1 {
+    color: #070211;
+    font-family: 'Merriweather', serif;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 /* best gift : awesome-portfolio */
@@ -297,7 +313,7 @@ header>h3>span {
     display: flex;
     flex-direction: column;
     max-width: 82.5%;
-    margin: 0 auto 120px;
+    margin: auto 120px;
     text-align: left;
 }
 
