@@ -236,13 +236,19 @@ img {
     color: #FF0000;
     font-weight: 500;
     font-size: 24px;
+    margin-bottom: 10px;
 }
 
+.comming-head-new{
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
 .right-head {
     color: #F00;
     font-family: 'Inter', sans-serif;
     font-size: 48px;
     font-weight: 700;
+    margin-bottom: 15px;
 }
 
 .left {
