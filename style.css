@@ -386,7 +386,9 @@ img {
     
 }
 
-
+.holiday-article > p{
+    text-align: center;
+}
 /* best gift : awesome-portfolio */
 
 .best-gift {
