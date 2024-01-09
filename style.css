@@ -120,14 +120,7 @@ img {
 
 }
 
-/* .cata-head{
-    color: #070211;
-    font-family: 'Inter', sans-serif;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-} */
+
 
 .black-heading {
     color: #070211;
@@ -226,9 +219,6 @@ img {
 
 .comming-soon {
     display: flex;
-    /* justify-content: space-between; 
-    align-self: space-between; */
-    /* align-items:last baseline;  */
     column-gap: 70px;
     max-width: 82.5%;
     margin: 0 auto 120px;
@@ -290,13 +280,6 @@ img {
     padding-left: 0px;
 }
 
-.comming-new {
-    /* position: absolute;
-    bottom: 0; */
-}
-
-
-
 
 /* holiday-sales */
 
@@ -327,12 +310,6 @@ img {
 
 .holiday-special {
     color: #F00;
-    /* text-align: center;
-    font-family: 'Merriweather', serif;
-    font-size: 72px;
-    font-style: normal;
-    font-weight: 900;
-    margin-bottom: 0px; */
 }
 
 .holiday-article>h1 {
@@ -389,6 +366,8 @@ img {
 .holiday-article > p{
     text-align: center;
 }
+
+
 /* best gift : awesome-portfolio */
 
 .best-gift {
@@ -424,9 +403,6 @@ img {
     border: 5px solid rgb(128, 0, 0);
     border-radius: 15px;
 }
-
-
-
 
 
 /* newsletter */
@@ -494,8 +470,6 @@ footer {
 
 .footer-section {
     max-width: 82.5%;
-    /* display: flex;
-    flex-direction: column; */
     margin: 0 auto;
 
 }
@@ -516,9 +490,6 @@ footer p {
     line-height: 3px;
 }
 
-/* .special-line{
-    line-height: 4px;
-} */
 
 .footer-head-left,
 .footer-head-side {
