@@ -9,6 +9,7 @@ p {
     font-family: 'Inter', sans-serif;
     font-size: 20px;
     line-height: 32px;
+    font-weight: 400;
 }
 
 img {
@@ -139,20 +140,19 @@ img {
 /* welcome-midnight */
 .welcome-mid {
     background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
-    display: flex;
     max-width: 82.5%;
     margin: 120px auto 40px;
+    display: flex;
 }
 
 .mid-half {
     padding: 126px;
-    width: 72%;
 }
 
 .mid-half>p {
-    white-space: normal;
+   /* white-space: nromal; */
     color: rgba(255, 255, 255, 0.80);
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 18px;
     font-weight: 400;
 }
@@ -162,18 +162,23 @@ img {
     text-decoration: none;
     margin-top: 48px;
     margin-left: 32px;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 20px;
     font-weight: 700;
 }
 
-.mid-img {
-    position: absolute;
-    right: 138px;
+
+
+.mid-half-mid{
+
     padding-top: 68px;
+    padding-right: 138px;
 }
 
-
+.mid-half-mid > img{
+    max-width: 320px;
+    max-height: 469px;
+}
 
 /* place hotel */
 .place-hotel {
@@ -221,8 +226,9 @@ img {
 
 .comming-soon {
     display: flex;
-    justify-content: space-between;
-    align-self: space-between;
+    /* justify-content: space-between; 
+    align-self: space-between; */
+    /* align-items:last baseline;  */
     column-gap: 70px;
     max-width: 82.5%;
     margin: 0 auto 120px;
@@ -251,6 +257,8 @@ img {
     margin-bottom: 15px;
 }
 
+
+
 .left {
     /* line-height: 16px; */
 }
@@ -262,24 +270,33 @@ img {
 }
 
 .middle {
-    width: 50%;
+    /* max-width: 50%; */
+    
 }
 
 .comming-img {
-    height: 97%;
+    
     margin: 20px;
     border: 20px solid rgb(243, 236, 236);
     border-radius: 50%;
     outline: 15px solid red;
+    height: 100%;
+    /* width: 100%; */
 
 
 }
 
+.right{
+    padding-left: 0px;
+}
 
 .comming-new {
-    position: absolute;
-    bottom: 0;
+    /* position: absolute;
+    bottom: 0; */
 }
+
+
+
 
 /* holiday-sales */
 
@@ -288,7 +305,7 @@ img {
     display: flex;
     flex-direction: column;
     row-gap: 190px;
-    margin: 30px auto 120px;
+    margin: 0px auto 120px;
 }
 
 
@@ -310,12 +327,12 @@ img {
 
 .holiday-special {
     color: #F00;
-    text-align: center;
+    /* text-align: center;
     font-family: 'Merriweather', serif;
     font-size: 72px;
     font-style: normal;
     font-weight: 900;
-    margin-bottom: 0px;
+    margin-bottom: 0px; */
 }
 
 .holiday-article>h1 {
@@ -342,7 +359,7 @@ img {
     bottom: 0px;
     left: 0px;
     z-index: 0;
-    width: 100%;
+    max-width: 100%;
 }
 
 .flower-img {
@@ -376,7 +393,7 @@ img {
     display: flex;
     flex-direction: column;
     max-width: 82.5%;
-    margin: auto 120px;
+    margin: 0 auto 120px;
     text-align: left;
 }
 
@@ -397,7 +414,7 @@ img {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 24px;
-    margin-top: 48px;
+    margin-top: 48px;;
 }
 
 .gift-img>img:hover {
@@ -464,7 +481,7 @@ input[type="submit"] {
 /* footer section */
 
 footer {
-    width: 100%;
+    max-width: 100%;
     margin: 120px 0px 0px 0px;
     padding: 0px;
     background-color: #070211;
@@ -527,8 +544,8 @@ span>a {
 }
 
 .footer-head-img>img {
-    width: 24px;
-    height: 24px;
+    max-width: 24px;
+    max-height: 24px;
 }
 
 .footer-social {
