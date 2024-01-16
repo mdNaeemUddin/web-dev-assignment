@@ -1,0 +1,56 @@
+@media only screen and (max-width:600px){
+    .special-nav{
+        display: inline-block;
+    }
+
+    .nav-features{
+        display: none;
+    }
+
+    .top-nav{
+        padding: 0.5rem;
+    }
+
+    .banner-form-item{
+        display: block;
+    }
+
+    .popular-tour{
+        flex-direction: column;
+    }
+
+    .destination-img {
+        grid-template-areas:
+            "img-1"
+            "img-2"
+            "img-3"
+            "img-4"
+            "img-5"
+            "img-6"
+            "img-7"
+        ;
+    
+        gap: 1.2rem;
+    }
+
+    .service{
+        flex-direction: column;
+    }
+
+    .service-3{
+        width: 100%;
+    }
+
+    .perfect-place{
+        flex-direction: column;
+    }
+
+    .news-letter{
+        flex-direction: column;
+    }
+
+    .customer-comments{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+}
