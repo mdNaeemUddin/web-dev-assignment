@@ -96,6 +96,7 @@ li>a.special-link {
 .nav-banner {
     border-radius: 1rem;
     background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url("images/nav-banner.png") no-repeat;
+    background-size: cover;
     width: 81%;
     margin: 0 auto;
     display: block;
@@ -333,6 +334,8 @@ button {
 
 .tour-place-section {
     background: url("images/Rectangle\ 12.png") no-repeat;
+    background-size: cover;
+    border-radius: 1rem;
     /* width: 100%; */
     display: flex;
     justify-content: flex-end;
