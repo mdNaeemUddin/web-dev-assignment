@@ -14,10 +14,12 @@
 
     .top-nav{
         padding: 0.5rem;
+        width: 100%;
     }
 
     .nav-banner{
         display: inline-block;
+        width: 100%;
     }
 
     .banner-form-item{
@@ -27,6 +29,7 @@
     .popular-tour{
         flex-direction: column;
         justify-content: center;
+        width: 100%;
     }
 
     .destination-img {
@@ -47,6 +50,14 @@
         flex-direction: column;
     }
 
+    .destination{
+        width: 100%;
+    }
+
+    .choose{
+        width: 100%;
+    }
+
     .service-3{
         width: 100%;
     }
@@ -55,6 +66,10 @@
         flex-direction: column;
     }
 
+    .deal-discount{
+        width: 100%;
+    }
+    
     .news-letter{
         flex-direction: column;
     }
