@@ -412,6 +412,7 @@ button {
     width: 81%;
     margin: 0 auto 6.25rem;
     display: flex;
+    justify-content: space-between;
 }
 
 .newsletter-article {
@@ -478,6 +479,57 @@ h2 {
 }
 
 
+/* customer-review */
+
+.customer-review{
+    width: 81%;
+    margin: 0 auto 6.25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.customer-review > h2{
+    text-align: center;
+}
+.customer-comments{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.3rem;
+    padding-top: 2.5rem;
+}
+
+.customer-comments > .comment-box{
+    border: 1px solid grey;
+    padding: 1.5rem;
+}
+
+
+.fa-star, .fa-star-half-stroke{
+    color: red;
+}
+
+.review-star{
+    display: flex;
+    gap: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.8rem;
+}
+
+.comment-box > h4{
+    padding: 0 0 0.2rem 0;
+    color: orange;
+}
+.review-star > p{
+    font-weight: bold;
+}
+.comment-box > p{
+    text-align: justify;
+}
+
+.comment-box > img{
+    width: 100%;
+}
 /* footer section */
 
 .footer-section{
