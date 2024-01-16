@@ -477,3 +477,39 @@ h2 {
 
 }
 
+
+/* footer section */
+
+.footer-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    /* text-align: center; */
+    background: rgba(19, 19, 24, 0.05);
+    padding: 6.87rem 14.5rem;
+}
+
+.footer-section > .top-nav{
+    padding-bottom: 1rem;
+
+}
+
+.footer-section > div > .footer-description{
+    margin-bottom: 1.5rem;
+}
+
+.font-awesome{
+    display: flex;
+    gap: 1.2rem;
+    padding-bottom: 3.1rem;
+}
+
+.footer-section > div > .footer-copyright{
+    padding-top: 3.1rem;
+}
+
+hr{
+    border: 1px solid #1313181A;
+    width: 55rem;
+}
