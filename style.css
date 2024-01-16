@@ -372,10 +372,13 @@ button {
 
 .tour-para {
     margin-bottom: 1rem;
+   
 }
 
 .tour-card>div>.tour-price {
     margin-bottom: 1.5rem;
+    color: var(--primary-color);
+    font-weight: 800;
 }
 
 .button {
@@ -383,6 +386,7 @@ button {
     display: block;
     text-align: center;
 }
+
 
 /* perfect place article */
 
