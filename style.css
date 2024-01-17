@@ -15,6 +15,7 @@
 
 
 body {
+    min-width: 992px;
     background-color: #FFF;
 }
 
@@ -43,12 +44,20 @@ p {
 
 /* header section */
 
+header {
+    max-width: 81%;
+    margin: 0 auto;
+}
+
+
+/* nav menu section */
+
 .top-nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 81%;
-    margin: 0 auto;
+    /* max-width: 81%;
+    margin: 0 auto; */
     padding-top: 2rem;
     padding-bottom: 3rem;
 }
@@ -73,19 +82,29 @@ p {
     display: flex;
 }
 
-.nav-features>li {
+.nav-features>.nav-half {
+    display: flex;
+}
+
+.nav-features>p>a {
+    display: none;
+    margin-right: 2.8rem;
+
+}
+
+.nav-features>ul>li {
     list-style: none;
     margin-left: 2.8rem;
 }
 
-.nav-features>li a {
+.nav-features>ul>li a {
     text-decoration: none;
     color: #424247;
     font-size: 1.1rem;
     font-weight: 700;
 }
 
-li>a.special-link {
+ul>li>a.special-link {
     color: var(--primary-color);
     font-weight: 700;
 }
@@ -97,9 +116,9 @@ li>a.special-link {
     border-radius: 1rem;
     background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url("images/nav-banner.png") no-repeat;
     background-size: cover;
-    width: 81%;
-    margin: 0 auto;
-    display: block;
+    /* width: 81%;
+    margin: 0 auto; */
+    /* display: block; */
     text-align: center;
 
     padding: 6.25rem;
@@ -279,7 +298,7 @@ button {
     gap: 1.5rem;
 }
 
-.service {
+.choose-service>.service {
     display: flex;
     gap: 1.5rem;
 }
@@ -297,7 +316,7 @@ button {
     background: rgba(41, 206, 246, 0.05);
 }
 
-.service-3 {
+.choose-service>.service-3 {
     width: 50%;
 }
 
@@ -367,12 +386,13 @@ button {
 
 .tour-address {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    gap: 2.5rem;
 }
 
 .tour-para {
     margin-bottom: 1rem;
-   
+
 }
 
 .tour-card>div>.tour-price {
@@ -397,8 +417,7 @@ button {
     gap: 1.6rem;
 }
 
-.perfect-place img {
-    width: 100%;
+.perfect-place-img>iframe {
     height: 100%;
 }
 
@@ -452,7 +471,7 @@ button {
     position: relative;
 }
 
-.newsletter-img > img{
+.newsletter-img>img {
     width: 100%;
     height: 100%;
 }
@@ -462,7 +481,7 @@ h2 {
     color: #FFF;
 }
 
-.newsletter-img-special> h2{
+.newsletter-img-special>h2 {
     font-size: 32px;
     font-weight: 800;
 }
@@ -487,58 +506,64 @@ h2 {
 
 /* customer-review */
 
-.customer-review{
+.customer-review {
     width: 81%;
     margin: 0 auto 6.25rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    /* display: flex;
+    flex-direction: column; */
+    /* align-items: center; */
+    /* justify-content: center; */
 }
-.customer-review > h2{
+
+.customer-review>h2 {
     text-align: center;
 }
-.customer-comments{
+
+.customer-comments {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1.3rem;
     padding-top: 2.5rem;
 }
 
-.customer-comments > .comment-box{
+.customer-comments>.comment-box {
     border: 1px solid grey;
     padding: 1.5rem;
 }
 
 
-.fa-star, .fa-star-half-stroke{
+.fa-star,
+.fa-star-half-stroke {
     color: red;
 }
 
-.review-star{
+.review-star {
     display: flex;
     gap: 1rem;
     padding-top: 0.5rem;
     padding-bottom: 0.8rem;
 }
 
-.comment-box > h4{
+.comment-box>h4 {
     padding: 0 0 0.2rem 0;
     color: orange;
 }
-.review-star > p{
+
+.review-star>p {
     font-weight: bold;
 }
-.comment-box > p{
+
+.comment-box>p {
     text-align: justify;
 }
 
-.comment-box > img{
+.comment-box>img {
     width: 100%;
 }
+
 /* footer section */
 
-.footer-section{
+.footer-section {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -548,27 +573,213 @@ h2 {
     padding: 6.87rem 14.5rem;
 }
 
-.footer-section > .top-nav{
+.footer-section>.top-nav {
     padding-bottom: 1rem;
 
 }
 
-.footer-section > div > .footer-description{
+.footer-section>div>.footer-description {
     margin-bottom: 1.5rem;
 }
 
-.font-awesome{
+.font-awesome {
     display: flex;
-    gap: 1.2rem;
+    gap: 1.5rem;
     padding-bottom: 3.1rem;
 }
 
-.footer-section > div > .footer-copyright{
+.footer-section>div>.footer-copyright {
     padding-top: 3.1rem;
 }
 
-hr{
+hr {
     border: 1px solid #1313181A;
     width: 55rem;
 }
 
+.font-awesome>a>i {
+    font-size: 2rem;
+}
+
+
+
+/* Responsive mobile view */
+@media only screen and (max-width: 600px) {
+
+    /* header section */
+    body {
+        max-width: 600px;
+    }
+
+    .header {
+        width: 100%;
+        margin: 0rem;
+        padding: 0rem;
+    }
+
+    /* nav menu section */
+
+    .top-nav {
+
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+
+    .nav-features>.nav-half {
+        display: none;
+    }
+
+    .nav-features>p>a {
+        display: block;
+        margin-right: 0rem;
+        margin-left: 0rem;
+    
+    }
+
+    /* .nav-features>ul>li {
+        
+        margin: 0rem;
+    } */
+
+    /* nav-banner section */
+
+    .nav-banner {
+        padding: 0.5rem;
+    }
+
+    .banner-form-item {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .banner-form-item>input,
+    button {
+
+        width: 100%;
+        height: 52px;
+
+    }
+
+    /* popular tour section  */
+
+    .popular-tour {
+        flex-direction: column;
+        max-width: 100%;
+        margin: 0.1rem;
+        gap: 1.5rem;
+    }
+
+    .popular-tour-img > img{
+        width: 100%;
+    }
+
+    .popular-tour-description>p {
+        margin: 0;
+    }
+
+    /* destination section */
+
+    .destination {
+        width: 100%;
+        margin: 0.1rem;
+    }
+
+    .destination-img > div > img{
+        width: 100%;
+    }
+
+    .destination-img {
+        grid-template-areas:
+            "img-1"
+            "img-2"
+            "img-3"
+            "img-4"
+            "img-5"
+            "img-6"
+            "img-7"
+        ;
+        /* row-gap: 0.5rem;
+        justify-content: center;
+        align-items: center; */
+    }
+
+    /* choose section */
+
+    .choose {
+        width: 100%;
+        margin: 0.1rem;
+    }
+
+    .choose-service {
+        justify-content: flex-start;
+        gap: 0.5rem
+    }
+
+    .choose-service>.service {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .choose-service>.service-3 {
+        width: 100%;
+    }
+
+    /* Deal & Discount Sections */
+
+    .deal-discount {
+        width: 100%;
+        margin: 0.1rem;
+    }
+
+    .deal-discount-price {
+        gap: 0.5rem;
+    }
+
+    /* perfect-place section */
+
+    .perfect-place {
+        width: 100%;
+        margin: 0.1rem;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .perfect-place-img>iframe {
+        width: 100%;
+        height: 350px;
+    }
+
+    /* news-letter section */
+
+    .news-letter {
+        width: 100%;
+        margin: 0.1rem;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    /* customer review section */
+
+    .customer-review {
+        width: 100%;
+        margin: 0.1rem;
+
+    }
+
+    .customer-comments {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 0.5rem;
+    }
+
+    /* footer section */
+
+    .footer-section {
+        padding: 2rem 3rem;
+    }
+
+    .footer-description {
+        text-align: center;
+    }
+
+
+}
